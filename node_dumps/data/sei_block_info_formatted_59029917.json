@@ -1,0 +1,1238 @@
+{
+  "header": {
+    "version": {
+      "block": "0",
+      "app": "0"
+    },
+    "chain_id": "pacific-1",
+    "height": "59029917",
+    "time": "2024-02-20T14:50:45.437366751Z",
+    "last_block_id": {
+      "hash": "0d8CA0dJfHWvdKTWj4J3EivFrWkjCdx2qr0Vu9L5P8c=",
+      "part_set_header": {
+        "total": 1,
+        "hash": "0d8CA0dJfHWvdKTWj4J3EivFrWkjCdx2qr0Vu9L5P8c="
+      }
+    },
+    "last_commit_hash": "iYyMuAp+TYQKs7TwALARGZlRLO4AHvJK7qxO8hx3qk8=",
+    "data_hash": "9uZQ4fwnKTFnufql3sG0dM+84Re33pzbJ1wvC+QfbW0=",
+    "validators_hash": "y7Yw6D4HKkBPbCm5okC8Ke7N8V3EERo3JPYcgqoZQYg=",
+    "next_validators_hash": "y7Yw6D4HKkBPbCm5okC8Ke7N8V3EERo3JPYcgqoZQYg=",
+    "consensus_hash": "fQuI+INdtukuxOlZzNkyQFLGh5S8QlZ8+kX7F27WZ5o=",
+    "app_hash": "7ujQ+vm5BNaY/3Dl4shFgAqkU36pnzMjNGWTDVloFnM=",
+    "last_results_hash": "LsgNAqpIt+Q4QgH8bdPAV/kALdl313ki0SOIAI47z4U=",
+    "evidence_hash": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "proposer_address": "8EtbnEi2VgShMJ4LAEa098+MfvI="
+  },
+  "valset": [
+    {
+      "operator_address": "seivaloper1y82m5y3wevjneamzg0pmx87dzanyxzht0kepvn",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "P3MLnMNN/76GwQiCDHiniyNhRJ2sMPvtKxmvS8l4MyI="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "363767705245288",
+      "delegator_shares": "363767705245288.000000000000000000",
+      "description": {
+        "moniker": "Figment",
+        "identity": "E5F274B870BDA01D",
+        "website": "https://figment.io",
+        "security_contact": "security@figment.io",
+        "details": "Figment Inc."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.500000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2024-02-01T16:12:19.780060576Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1wwfpmcvehq6yqdxfccs5rdr745q3kmy06l9d0d",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "7uHtOE4oYn6GDGHVjKT7kW00rZ+XzLlcZyB4CpfuEN8="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "347041981322989",
+      "delegator_shares": "347041981322989.000000000000000000",
+      "description": {
+        "moniker": "kingnodes 👑",
+        "identity": "30E6CD38D9721222",
+        "website": "https://kingnodes.com",
+        "security_contact": "security@kingnodes.com",
+        "details": "Professional PoS validator securing only the best interchain networks. Join our community of delegators Telegram: https://t.me/kingnodes Twitter: https://twitter.com/kingnodes"
+      },
+      "unbonding_height": "2592000",
+      "unbonding_time": "2023-06-24T06:26:32.090938670Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "1.000000000000000000",
+          "max_change_rate": "1.000000000000000000"
+        },
+        "update_time": "2023-08-17T00:26:27.873800335Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1wuj3xg3yrw4ryxn9vygwuz0necs4klj7j9nay6",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "SKIk32VCRpgn/EYBzFr2oxI5f0ObG8/U1uA6alQkL70="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "309594592030241",
+      "delegator_shares": "309594592030241.000000000000000000",
+      "description": {
+        "moniker": "Hype INFRA",
+        "identity": "",
+        "website": "",
+        "security_contact": "",
+        "details": ""
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "1.000000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-16T15:31:37.874176313Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1n8dkzn66f9ys8kfcdsmrtcz9003ummhxxe6g23",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "S6oPoVvpxTbT/zx8MF6a2ZZiut6a6NbUUOBbjnE7Eu8="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "300644761569519",
+      "delegator_shares": "300644761569519.000000000000000000",
+      "description": {
+        "moniker": "Felix",
+        "identity": "",
+        "website": "",
+        "security_contact": "",
+        "details": "Felix is assisting entrepreneurs and builders within the Sei ecosystem."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-12-05T16:54:02.098361835Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1xhxnad3c86q3d8ggsyu24j7r0y5k3ef4uhh9e2",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "0ORlqiUL6gT9CAGl2gND44InIAZMQFYQL2a1NAVi8Xs="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "299305292726195",
+      "delegator_shares": "299305292726195.000000000000000000",
+      "description": {
+        "moniker": "sei0",
+        "identity": "",
+        "website": "",
+        "security_contact": "",
+        "details": ""
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-14T17:21:31.998497684Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1d3ar2psa9ca55q45jg3q6f3ltmpr0ndqqlty87",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "dkC5cblcgpq72mlmVvisMbzodGZD1SNoJlGdDuAA7BQ="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "294220937301288",
+      "delegator_shares": "294220937301288.000000000000000000",
+      "description": {
+        "moniker": "sei1",
+        "identity": "",
+        "website": "",
+        "security_contact": "",
+        "details": ""
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-14T17:36:35.128649831Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper146m089lq8mkqw6w0mmlhxz6247g2taha89at74",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "LoVc5D8EoLQwzFKKDpJmD+kyYAqBiLdkDgfWcPkXuKY="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "265032948668055",
+      "delegator_shares": "265032948668055.000000000000000000",
+      "description": {
+        "moniker": "RHINO",
+        "identity": "59C635D1CD02FEEC",
+        "website": "https://rhinostake.com",
+        "security_contact": "support@rhinostake.com",
+        "details": "An Active, Independent and Secure Blockchain Validator. Read more about #RHINOgives at https://rhinostake.com/rhino-gives"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-05-22T15:00:00Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper16pj5gljqnqs0ajxakccfjhu05yczp98743ctgy",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "MrIsEDbhfdT9I8KfOXpTBEpMPp6W90WRSuSYwP74zSc="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "241123982733721",
+      "delegator_shares": "241123982733721.000000000000000000",
+      "description": {
+        "moniker": "Chorus One",
+        "identity": "00B79D689B7DC1CE",
+        "website": "https://chorus.one",
+        "security_contact": "security@chorus.one",
+        "details": "Secure Sei and shape its future by delegating to Chorus One, a highly secure and stable validator. By delegating, you agree to the terms of service at: https://chorus.one/tos"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-08-16T16:21:04.339038592Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper10hg23nf7eejwvthlad096x95pq84g4wnnwjtzq",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "RmaczJM33QTq7VmSOxvsZIi6li6Bnqqc+rzhqUWm5rw="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "215185515687380",
+      "delegator_shares": "215185515687380.000000000000000000",
+      "description": {
+        "moniker": "ContributionDAO",
+        "identity": "3034BD2560DD86B4",
+        "website": "https://contributiondao.com",
+        "security_contact": "",
+        "details": "Bootstrapping Quality Talents and Onboarding Users to the Projects for making opportunities in Web 3.0 accessible to everyone."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-16T12:28:00.698019177Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1xm0pjt3qsdlc6u4n7fjpycqd5h7zwla7tz8m37",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "6/QDop0myVxsfe9lE0vvpVS32iLGxrZa43mBHIElzTU="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "213593891413977",
+      "delegator_shares": "213593891413977.000000000000000000",
+      "description": {
+        "moniker": "Anchorage Digital",
+        "identity": "17D0A114A90FD55F",
+        "website": "https://anchorage.com",
+        "security_contact": "keybase@anchorlabs.com",
+        "details": "Anchorage Digital offers an unparalleled combination of secure custody, regulatory compliance, product breadth, and client service."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.055000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-08-15T15:00:36.698121724Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper15xgfk9cnt56xjvqvetjvg3wlqlslfnqfc03dwk",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "jSGbExRc1FmlYlA/xb+z4+IVfL1kop/lUC1pCAIcl/U="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "197810518856816",
+      "delegator_shares": "197810518856816.000000000000000000",
+      "description": {
+        "moniker": "STAKEME",
+        "identity": "5EAD753536BB995C",
+        "website": "https://stakeme.pro",
+        "security_contact": "admin@stakeme.pro",
+        "details": "STAKEME helps web 3.0 projects to test their product, and provide the most efficient development support"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-16T13:57:01.453895041Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1ummny4p645xraxc4m7nphf7vxawfzt3p5hn47t",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "SDIvv/p97k5qKdTVRGDzzX2NmuQrBRLo1BXCsHpK/Xo="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "181071322756650",
+      "delegator_shares": "181071322756650.000000000000000000",
+      "description": {
+        "moniker": "Everstake",
+        "identity": "EF5AC70C00BECEDC",
+        "website": "https://everstake.one",
+        "security_contact": "",
+        "details": "Reliable and experienced staking service provider from Ukraine. Visit our website for more details."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-16T13:00:18.966079790Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1qae8v3h6wd6f5yfxyx3zeumuddwhm4qeyz5qre",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "mqgGhHzkM3r4KuxCuDlU857aVHGjhu6zMUlOvUWS88I="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "153870310224750",
+      "delegator_shares": "153870310224750.000000000000000000",
+      "description": {
+        "moniker": "Brochain",
+        "identity": "96C52B0DC1222AD6",
+        "website": "https://brocha.in",
+        "security_contact": "contact@brocha.in",
+        "details": ""
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-16T15:01:28.661142838Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper16znh8ktn33dwnxxc9q0jmxmjf6hsz4tl0s6vxh",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "V6IrQBL0a98k1HXltdRTZcfc/fAvQHG20b5Qml4XNE0="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "151254236015486",
+      "delegator_shares": "151254236015486.000000000000000000",
+      "description": {
+        "moniker": "Flipside",
+        "identity": "84D5F4CF21FBF123",
+        "website": "https://flipsidecrypto.xyz",
+        "security_contact": "services@flipsidecrypto.com",
+        "details": "Explore the best data and insights in Web3."
+      },
+      "unbonding_height": "12965343",
+      "unbonding_time": "2023-08-11T12:47:02.343189364Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.200000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "update_time": "2023-05-30T16:07:37.929724662Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1mm5p6ak2w94cwry0n42px3ssajgytxnwfvd4w8",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "mGES1N+t0yaRV8z4V468uybVLeeG8VEGw/q/fJtsiv4="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "140627814079379",
+      "delegator_shares": "140627814079379.000000000000000000",
+      "description": {
+        "moniker": "Crosnest",
+        "identity": "5F1D6AC7EA588676",
+        "website": "https://cros-nest.com/",
+        "security_contact": "chainmaster@cros-nest.com",
+        "details": "We operate secure and redundant validator infrastructure for PoS blockchains and actively participate in IBC relaying with over $350M Total Relayed Value"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.150000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-16T14:07:33.629527397Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1garz4kjfgar8dwypayufca2mujgtfxlv6kte03",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "e9WkCDidWKDRqFOm5SKif4Cl2NTN2d3plHR+6ySP+ps="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "139094538692957",
+      "delegator_shares": "139094538692957.000000000000000000",
+      "description": {
+        "moniker": "MantiCore",
+        "identity": "D5CFA114A1EE1CC7",
+        "website": "https://manticore.team",
+        "security_contact": "contact@manticore.team",
+        "details": ""
+      },
+      "unbonding_height": "2983612",
+      "unbonding_time": "2023-06-26T13:39:23.294693050Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-08-16T16:29:34.624366677Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1hnkkqnzwmyw652muh6wfea7xlfgplnyj0ku4w4",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "M2rUV/CXMQlwRRIJTKGw5xZCF9gMD1xpiOZF5RxSJ3g="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "135085892331026",
+      "delegator_shares": "135085892331026.000000000000000000",
+      "description": {
+        "moniker": "Cosmostation",
+        "identity": "AE4C403A6E7AA1AC",
+        "website": "https://www.cosmostation.io",
+        "security_contact": "admin@stamper.network",
+        "details": "Cosmostation validator node. Delegate your tokens and Start Earning Staking Rewards"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.200000000000000000"
+        },
+        "update_time": "2023-05-22T15:00:00Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1mpe9rdk7ycujge7r9ncjt4ekamgrdcygvzwqe8",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "A0MMRysC7dwAXaSzZH+CUZjIMBH7Sp2z2hMFFH7u5wM="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "134888369708956",
+      "delegator_shares": "134888369708956.000000000000000000",
+      "description": {
+        "moniker": "polkachu.com",
+        "identity": "0A6AF02D1557E5B4",
+        "website": "https://polkachu.com",
+        "security_contact": "hello@polkachu.com",
+        "details": "Polkachu is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@polkachu.com"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-05-29T23:34:51.685309226Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1rd8tf3qf0w44kpc9fsu6aqgkmjsjcz5thw46nk",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "NA23pg4mzsgrAukoUwmVfwDFi12OKln7rjnBnCpM5uc="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "113390779751839",
+      "delegator_shares": "113390779751839.000000000000000000",
+      "description": {
+        "moniker": "Shinlabs",
+        "identity": "",
+        "website": "http://shinlabs.xyz/",
+        "security_contact": "",
+        "details": "Thesis-driven, crypto-native venture studio"
+      },
+      "unbonding_height": "21753325",
+      "unbonding_time": "2023-09-19T05:50:20.694773603Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-08-16T14:56:54.793093972Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1eqgnd7ey0hnha8rrfukjrsawulhna0zagcg6a4",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "Xmd0qoOv2BW8LxdZGw2PPrYowOeIfgPR1JEA/OGgCIs="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "109675963630299",
+      "delegator_shares": "109675963630299.000000000000000000",
+      "description": {
+        "moniker": "Stakin",
+        "identity": "83D300CB42D06962",
+        "website": "https://stakin.com",
+        "security_contact": "security@stakin.com",
+        "details": "Experienced enterprise validator running Proof-of-Stake nodes for the Cosmos ecosystem and beyond. Visit our website for more information: https://stakin.com"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.250000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "update_time": "2023-05-22T15:00:00Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1fpvjye4rcqmds6vvrjvf4pl8jfsv5vkn0llaxs",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "YbCfN11Dy1Gkt1jOSWg+WUUXtoAisSwINbuJcPUjX6M="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "106930012996265",
+      "delegator_shares": "106930012996265.000000000000000000",
+      "description": {
+        "moniker": "StingRay",
+        "identity": "D1A8193AF3905AAC",
+        "website": "https://github.com/MikhailRadusha",
+        "security_contact": "",
+        "details": "Reliable Proof-of-Stake Validator"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-08-16T13:40:17.861445516Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1qe8uuf5x69c526h4nzxwv4ltftr73v7qnkypla",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "bJDwAyPA3hjFIQJjWfD1K2nEZq4r+4PhYEmoDlXFeyM="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "103876007640274",
+      "delegator_shares": "103876007640274.000000000000000000",
+      "description": {
+        "moniker": "Stakecito",
+        "identity": "D16E26E5C8154E17",
+        "website": "https://www.stakecito.com",
+        "security_contact": "security@stakecito.de",
+        "details": "Securing & Decentralizing PoS Networks."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.020000000000000000"
+        },
+        "update_time": "2023-05-25T10:48:12.207924271Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1zv9z2wqt348dhxqn38xv8dvsu78cle4xs2cdf4",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "tJE+Y7v3ZjxXVjxT0GbNP7IPW+JFceHcSpr7eQKyAbE="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "103761105827995",
+      "delegator_shares": "103761105827995.000000000000000000",
+      "description": {
+        "moniker": "Enigma",
+        "identity": "6223697ACA24A4FF",
+        "website": "https://enigma-validator.com/",
+        "security_contact": "contact@enigma-validator.com",
+        "details": "Proof of Stake Validator on different projects -- Passionate about Data Science and Technology"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-08-17T00:53:27.941298586Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1t9fq3qfm7ngau5gr8qgf5dpfzjqg79kf65cu04",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "7b5yjJcnmRHWQvmvs4Z4tw27a+0nnR/QepCbG8XO2fg="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "101298051280371",
+      "delegator_shares": "101298051280371.000000000000000000",
+      "description": {
+        "moniker": "Imperator.co",
+        "identity": "0878BA6BE556C132",
+        "website": "https://imperator.co/",
+        "security_contact": "contact@imperator.co",
+        "details": "100% refund on downtime slashing -- Professional Delegated Proof-of-Stake Network Validator"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-05-22T15:00:00Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper140l6y2gp3gxvay6qtn70re7z2s0gn57zl6nups",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "U+wVEMmlQZpQ6wIDsVSYSHqrb96A9UoOzr+GcqHBIzw="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "101281258876944",
+      "delegator_shares": "101281258876944.000000000000000000",
+      "description": {
+        "moniker": " Lavender.Five Nodes 🐝",
+        "identity": "F87ADDB700C0CC94",
+        "website": "https://www.lavenderfive.com/",
+        "security_contact": "hello@lavenderfive.com",
+        "details": "100% soft slash protected. We strive to make the cosmos a more holistically wholesome place. Come say Hi! https://linktr.ee/lavenderfive"
+      },
+      "unbonding_height": "22430437",
+      "unbonding_time": "2023-09-22T03:45:13.386660862Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "update_time": "2023-05-22T15:00:00Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1xh2gf9gyvumlgpr9ws5n425vhntv9rysw9gr4q",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "OOlU8Mk+SBrLPE6+3LeblTOnx2BD5CleOQ549KSOs+w="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "100344841380988",
+      "delegator_shares": "100344841380988.000000000000000000",
+      "description": {
+        "moniker": "StakingCabin",
+        "identity": "C0522DF992B0C407",
+        "website": "https://stakingcabin.com",
+        "security_contact": "richard@stakingcabin.com",
+        "details": "StakingCabin"
+      },
+      "unbonding_height": "22399637",
+      "unbonding_time": "2023-09-22T00:37:45.994482968Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-05-22T15:00:00Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1spg334qdsxtmlzqn9vsh566477wd0hr56cjspj",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "IzcDlGjx4lf3viuFX723LCSlBCwB0tfxLlpnHfr+8IA="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "99706723847882",
+      "delegator_shares": "99706723847882.000000000000000000",
+      "description": {
+        "moniker": "Citadel.one",
+        "identity": "EBB03EB4BB4CFCA7",
+        "website": "https://citadel.one",
+        "security_contact": "nikita@citadel.one",
+        "details": "Citadel.one is a multi-asset non-custodial staking platform that lets anyone become a part of decentralized infrastructure and earn passive income. Stake with our nodes or any other validator across multiple networks in a few clicks"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.030000000000000000"
+        },
+        "update_time": "2023-05-22T15:00:00Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1d50kgydm02xg9kpafa8e3jwz83c0uvagkx9m5n",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "CUHKjB7mevZjuNEeJDID5E0s76J33f13H8grrGGBvRU="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "99459771664149",
+      "delegator_shares": "99459771664149.000000000000000000",
+      "description": {
+        "moniker": "Nodes.Guru",
+        "identity": "28B672FCE6BBD562",
+        "website": "https://stake.nodes.guru",
+        "security_contact": "security@nodes.guru",
+        "details": "Guru of non-custodial staking. Professional node running, low fees, best uptime and 24/7 customer support."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "update_time": "2023-08-16T12:25:09.264946046Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper17ga9jha45gu0x04yrmfpjpksmqe48wupzk5jex",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "tV2PWDXaQoXmYrVSk9C7QUgW8xoMSSYlSFcscaAQAVg="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "99222984792180",
+      "delegator_shares": "99222984792180.000000000000000000",
+      "description": {
+        "moniker": "Active Nodes",
+        "identity": "A2EA7DE76AD57E1A",
+        "website": "https://www.activenodes.io",
+        "security_contact": "",
+        "details": "We Skyrocket your Stake! Highly Available Enterprise Infrastructure with multiple nodes around the world"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "update_time": "2023-08-16T13:02:15.759014814Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1ykls6dhh2mjqk9x0d3ee29873stf7wwvedcjmh",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "J+Nzx/SLDf/tvaK0XogZDdNw3GgS8euviDYrK9b4nXA="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "99190424049166",
+      "delegator_shares": "99190424049166.000000000000000000",
+      "description": {
+        "moniker": "danku_zone w/ DAIC",
+        "identity": "C92C6965D89F07A3",
+        "website": "https://daic.capital/danku_zone/",
+        "security_contact": "office@daic.capital",
+        "details": "The official validator node from danku_r (YouTube, Twitter, Medium) run by DAIC (https://t.me/validator_danku_DAIC)"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-05-22T15:00:00Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1es38d8hn854vdcg8ql6fr3cycmahj6qypmpefu",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "5Gl3dt/UIb89cwsDPXftz9h1UVSY253tNZwpMkKoZO8="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "99155594381669",
+      "delegator_shares": "99155594381669.000000000000000000",
+      "description": {
+        "moniker": "WhisperNode 🤐",
+        "identity": "C99B3A6836BF0CB8",
+        "website": "https://REStake.WhisperNode.com/sei",
+        "security_contact": "security@whispernode.com",
+        "details": "WhisperNode operates robust, high up-time validators across the Cosmos ecosystem. Auto-compound your rewards with our REStake app. Join our Discord: https://discord.gg/4E5KZsRtjE / tweet @ https://twitter.com/WhisperNode 🐦"
+      },
+      "unbonding_height": "22139557",
+      "unbonding_time": "2023-09-20T21:32:19.931527122Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "update_time": "2023-08-17T23:51:33.417288797Z"
+      },
+      "min_self_delegation": "100000",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1ctnle8anjvrsf7h2cdwewwa377x63ec3ukfe6h",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "k8+47ylyAsxqNoc5Vp0OlG07kqizB0Tg7CVKhYLpWpA="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "99061877307340",
+      "delegator_shares": "99061877307340.000000000000000000",
+      "description": {
+        "moniker": "KudasaiJP",
+        "identity": "",
+        "website": "kudasai.co.jp",
+        "security_contact": "validator-dev@kudasai.co.jp",
+        "details": "Largest community validator in Japan offering validating, education and penetration into the Japanese market."
+      },
+      "unbonding_height": "52704000",
+      "unbonding_time": "2024-02-09T15:27:01.500675497Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.250000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2024-01-15T17:01:13.142292960Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper14ts0j42qkpr43a3tgxr7zz6l6zdf7hde3mf2ae",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "FMNHuEHe9BsRwK1Gt4Gxg2/ho1TTt+Zut1+XIvpWXuc="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "99051538973729",
+      "delegator_shares": "99051538973729.000000000000000000",
+      "description": {
+        "moniker": "Obi",
+        "identity": "D540D0234B3AE1B8",
+        "website": "https://obi.money",
+        "security_contact": "ChemicalBrosValidator@protonmail.com",
+        "details": "Obi provides convenient user account solutions for wallets, protocols and applications. If you're interested in offering seedless onboarding, account recovery, asset inheritance, session key signing or subscriptions to your users check out obi.money"
+      },
+      "unbonding_height": "21777087",
+      "unbonding_time": "2023-09-19T08:15:35.127978256Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-08-17T16:18:45.112291945Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper14u38cl6knqxs6vs7lj7vzfvap42yyc3runtrwc",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "rVaaa8fs15t7M2GY462cE90w5njr+jP25mIu/NRuhpw="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "99039430919309",
+      "delegator_shares": "99039430919309.000000000000000000",
+      "description": {
+        "moniker": "Blockscope.net",
+        "identity": "A98F35C138171A99",
+        "website": "https://blockscope.net",
+        "security_contact": "blockscope@protonmail.com",
+        "details": "Experienced team of IT engineers building dApps and infrastructures for blockchain projects like Near, Solana and Sui"
+      },
+      "unbonding_height": "22342385",
+      "unbonding_time": "2023-09-21T18:43:40.694414120Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-08-17T08:25:16.021224143Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper10plkkmv757pfydyqc97s87zgqt84vry6dx6q9k",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "OtbaqI30NGTZ2FszlMZMsFZJS3MR/tP6jptIBl5jdsM="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "80423708556588",
+      "delegator_shares": "80423708556588.000000000000000000",
+      "description": {
+        "moniker": "Staked",
+        "identity": "",
+        "website": "",
+        "security_contact": "",
+        "details": ""
+      },
+      "unbonding_height": "28296000",
+      "unbonding_time": "2023-10-18T03:31:39.822611969Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-11-08T19:36:38.394162641Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper17yen4et6asmmz43a49dka69h9l9r56n0tsq0yv",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "aYBB6LGDa3Oa3w2j6zUolygscSYVXq4Y8cF309gl/YM="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "74577272993243",
+      "delegator_shares": "74577272993243.000000000000000000",
+      "description": {
+        "moniker": "Dora Factory",
+        "identity": "",
+        "website": "",
+        "security_contact": "",
+        "details": ""
+      },
+      "unbonding_height": "42984000",
+      "unbonding_time": "2023-12-23T13:14:15.880366839Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "1.000000000000000000",
+          "max_change_rate": "1.000000000000000000"
+        },
+        "update_time": "2023-08-16T15:38:23.907137629Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper18tpdet22kpvswxayekwn55ry0r5acx4kaauupk",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "0yfEshZsklnn/J/KDaF+gDWS31Yrap6aUG5pt/nk6iw="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "71064057541143",
+      "delegator_shares": "71064057541143.000000000000000000",
+      "description": {
+        "moniker": "A41",
+        "identity": "87D9921253A2A9EB",
+        "website": "https://a41.io/",
+        "security_contact": "dev@a41.io",
+        "details": "A41 is a blockchain infrastructure company. We provide staking service on multichain. Stake your token with us now and earn rewards!"
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-05-24T04:45:39.566947064Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1mee6kysxzp99kfvgk7nqx7lrqg8txmw7kap9gy",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "jW45SR7pd7pWZejDyK4ADsnUpD9Hlg6JgHuBeNQg5Qw="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "58535929843404",
+      "delegator_shares": "58535929843404.000000000000000000",
+      "description": {
+        "moniker": " kjnodes.com 🦄",
+        "identity": "1C5ACD2EEF363C3A",
+        "website": "https://services.kjnodes.com/mainnet/sei",
+        "security_contact": "",
+        "details": "Trusted Proof of Stake validator across Cosmos universe. Active ecosystem contributor, IBC relayer and chain service provider since 2021. We deliver top-notch secure and reliable infrastructure for Cosmos projects. 24/7 monitoring with no slashing history in our track record."
+      },
+      "unbonding_height": "0",
+      "unbonding_time": "1970-01-01T00:00:00Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "update_time": "2023-10-11T17:02:34.163119972Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    },
+    {
+      "operator_address": "seivaloper1zvcl7haj95477kzjmyfvd2lzstj9hjy39gdnez",
+      "consensus_pubkey": {
+        "@type": "/cosmos.crypto.ed25519.PubKey",
+        "key": "PIB2loFCGaahBH9KW5CtmEXwql5wP2AH695NTVi1MjA="
+      },
+      "jailed": false,
+      "status": "BOND_STATUS_BONDED",
+      "tokens": "48246671676005",
+      "delegator_shares": "48246671676005.000000000000000000",
+      "description": {
+        "moniker": "DSRV",
+        "identity": "CC434B6FE536F51B",
+        "website": "https://dsrvlabs.com",
+        "security_contact": "validator@dsrvlabs.com",
+        "details": "DSRV is an integrated blockchain solutions company with the mission of enriching the crypto ecosystem via stronger connectivity. We strive to be your gateway to a suite of all-comprehensive blockchain services. Everything distributed, served complete."
+      },
+      "unbonding_height": "21834549",
+      "unbonding_time": "2023-09-19T14:10:14.610259768Z",
+      "commission": {
+        "commission_rates": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "update_time": "2023-08-16T16:04:36.952438008Z"
+      },
+      "min_self_delegation": "1",
+      "unbonding_on_hold_ref_count": "0",
+      "unbonding_ids": []
+    }
+  ]
+}
