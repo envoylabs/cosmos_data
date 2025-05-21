@@ -12,9 +12,9 @@ RUST_BACKTRACE=1 cargo run \
 The third argument is whether the metadata is included in the file. Different networks' RPCs include it or don't. Thus:
 
 ```
-RUST_BACKTRACE=1 cargo run ../sei/ ./output false
+RUST_BACKTRACE=1 cargo run ../sei/ ./output/sei false
 ```
 
 ```
-RUST_BACKTRACE=1 cargo run ../dydx/ ./output true
+RUST_BACKTRACE=1 cargo run ../dydx/ ./output/dydx true
 ```
