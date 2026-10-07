@@ -137,7 +137,7 @@ fn main() -> Result<(), ()> {
                 if cumulative_val_vp_percentage >= 0.667 {
                     if takeover_threshold.is_none() {
                         takeover_threshold = Some(BlockVPResultData {
-                            block_height: block_height,
+                            block_height,
                             block_voting_power: total_vp,
                             number_of_validators: cumulative_number_of_validators,
                             cumulative_validator_vp_percentage: cumulative_val_vp_percentage
@@ -147,7 +147,7 @@ fn main() -> Result<(), ()> {
                 } else if cumulative_val_vp_percentage >= 0.334 {
                     if nakamoto_coefficient.is_none() {
                         nakamoto_coefficient = Some(BlockVPResultData {
-                            block_height: block_height,
+                            block_height,
                             block_voting_power: total_vp,
                             number_of_validators: cumulative_number_of_validators,
                             cumulative_validator_vp_percentage: cumulative_val_vp_percentage
@@ -248,7 +248,7 @@ fn main() -> Result<(), ()> {
                 if cumulative_val_vp_percentage >= 0.667 {
                     if takeover_threshold.is_none() {
                         takeover_threshold = Some(BlockVPResultData {
-                            block_height: block_height,
+                            block_height,
                             block_voting_power: total_vp,
                             number_of_validators: cumulative_number_of_validators,
                             cumulative_validator_vp_percentage: cumulative_val_vp_percentage
@@ -258,7 +258,7 @@ fn main() -> Result<(), ()> {
                 } else if cumulative_val_vp_percentage >= 0.334 {
                     if nakamoto_coefficient.is_none() {
                         nakamoto_coefficient = Some(BlockVPResultData {
-                            block_height: block_height,
+                            block_height,
                             block_voting_power: total_vp,
                             number_of_validators: cumulative_number_of_validators,
                             cumulative_validator_vp_percentage: cumulative_val_vp_percentage
